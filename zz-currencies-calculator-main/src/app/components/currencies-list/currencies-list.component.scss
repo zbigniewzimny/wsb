@@ -1,0 +1,40 @@
+@import "../../../assets/variables.scss";
+
+:host {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+h4 {
+  color: $main-color;
+}
+
+.rates {
+  display: inline-table;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 8px;
+}
+
+.rates td, .rates th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.rates th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: $main-color;
+  color: white;
+}
+
+#code {
+  color: $main-color;
+  text-align: center;
+}
+
+.table-shadow {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
