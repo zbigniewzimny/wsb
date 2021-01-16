@@ -1,0 +1,20 @@
+@import "../../../assets/variables.scss";
+
+.toolbar {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $main-color;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 20px;
+}
+
+h1 {
+  width: -webkit-fill-available -moz-max-content intrinsic;
+  text-align: center;
+}
